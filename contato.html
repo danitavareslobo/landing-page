@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DTL Front</title>
+  <link rel="icon" type="image/x-icon" href="imagens/favicon.ico">
+</head>
+
+<body>
+   <header>
+    <section>
+      <img src="./imagens/danitl-logo.png" alt="Logo DaniTavaresLobo" width="350"/>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              Início
+            </a>
+          </li>
+          <li>
+            <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+       
+    </section>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <br>
+        <h1>Formulário de Contato</h1>
+        <p style="color: rgb(248, 74, 204);">Preencha os dados abaixo e envie sua mensagem de contato!</p>
+          
+          <fieldset>
+            <legend>
+              <h5>Dados de Contato</h5>
+            </legend>
+            <form id="frmInscricao" action="contato.php" method="POST">
+
+              <label>Nome:</label><br>
+              <input type="text" required id="txtNome" maxlength="100" size="50"><br><br>
+
+              <label>Sexo:</label><br>
+              <input type="radio" name="rdoSexo" value="M" required>
+              <label>Masculino</label>
+              
+              <input type="radio" name="rdoSexo" value="M" required>
+              <label>Feminino</label>
+              <br><br>
+
+              <label>Endereço:</label><br>
+              <input type="text" required id="txtEndereco" size="50"><br><br>
+              
+              <label>Estado:</label><br>
+              <select id="cbxEstado" required>
+                <option value="">-Selecione-</option>
+                <option value="1">MT</option>
+                <option value="2">SP</option>
+                <option value="3">SC</option>
+              </select><br><br>
+
+              <label>Cidade:</label><br>
+              <select id="cbxCidadeo" required>
+                <option value="">-Selecione-</option>
+                <option value="1">Cuiabá</option>
+                <option value="2">São Paulo</option>
+                <option value="3">Florianópolis</option>
+              </select><br><br>
+
+              <label>Celular:</label><br>
+              <input type="text" required id="Celular" placeholder="(##) #####-####" size="50" data-mask="(00) 00000-0000" data-mask-selectonfocus="true"/><br><br>
+
+              <label>E-mail:</label><br>
+              <input type="email" required id="txtEmail" size="50"><br><br>
+
+              <label>Áreas de Interesse:</label><br>
+                <input type="checkbox" value="JavaScript" name="chkAreasInteresse">
+                <label>JavaScript</label>
+
+                <input type="checkbox" value="css" name="chkAreasInteresse">
+                <label>CSS</label>
+
+                <input type="checkbox" value="html" name="chkAreasInteresse">
+                <label>HTML</label><br><br>
+
+              <label>Mensagem:</label><br>
+              <textarea type="text" required id="txtMensagem" rows="5" cols="48"></textarea>
+              <br><br>
+              <button type="submit">Enviar</button>
+
+            </form>
+          </fieldset>
+      </article>
+      <br>
+    
+      
+    
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li>
+        <a href="https://www.instagram.com/">
+          <img src="./imagens/instagram-logo.png" alt="Instagram" width="35px">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/">
+          <img src="./imagens/facebook-logo.png" alt="Facebook" width="35px">
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/">
+          <img src="./imagens/twitter-logo.png" alt="Twitter" width="35px">
+        </a>
+      </li>
+    </ul>
+    <br><br>
+     Feito por Daniele Tavares Lobo
+    <br>
+    <a href="https://www.linkedin.com/in/danitavareslobo/">Acesse meu LinkedIn</a>
+  </footer>
+</body>
+</html>
