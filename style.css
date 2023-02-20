@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font-family: “Kanit”, sans-serif;
+font-weight: 300;
+ vertical-align: baseline;
+ text-decoration: none;
+ list-style: none;
+}
+
+.conteudo {
+ width: 1024px;
+ margin: 30px auto;
+ display: flex;
+ flex-direction: column;
+}
+.linha {
+ display: flex;
+ flex-direction: row;
+}
+header section {
+ justify-content: space-between;
+ align-items: center;
+}
+
+header nav img {
+margin: 0px 400px 0 0;
+}
+
+header nav ul {
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+header nav ul li a {
+ color: rgb(251, 124, 221);
+ margin: 50px 0;
+}
+
+.botao {
+ padding: 5px 30px;
+ border-radius: 10px;
+}
+
+.botao.botao-destaque {
+ background: rgb(251, 124, 221);
+ color: #fff;
+}
+.sobre {
+ justify-content: space-between;
+ align-items: center;
+}
+.sobre article {
+ width: 350px;
+}
+.sobre article h1 {
+ font-size: 70px;
+ line-height: 90%;
+ font-weight: 400;
+ color: rgb(98, 47, 193);
+}
+.sobre article h2,
+.sobre article p {
+ color: rgb(251, 124, 221);
+}
+
+.sobre article h2 {
+ font-size: 30px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ line-height: 200%;
+}
+.sobre article p {
+ margin: 10px 0 40px;
+}
+.sobre article figcaption img {
+ width: 700px;
+}
+
+footer {
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ left: 160px;
+ color: rgb(98, 47, 193);
+}
+
+footer ul li {
+  display: inline;
+  flex-direction: row;
+ margin: 0 10px;
+ 
+}
+footer ul li a img {
+width: 30px;
+}
+
+.linkedin {
+display: inline;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+
+/* Define o tamanho dos elementos em telas de 1150px. */
+@media(max-width: 1150px) {
+ .conteudo {
+ width: 950px;
+ }
+}
+/* Define o tamanho dos elementos em telas de 1024px. */
+@media(max-width: 1024px) {
+
+ .conteudo {
+ width: 850px;
+ }
+ .sobre figcaption img {
+ width: 600px;
+ }
+}
+/* Define o tamanho dos elementos em telas de 915px. */
+@media(max-width: 915px) {
+ .conteudo {
+ width: 600px;
+ }
+ .linha {
+ flex-direction: column;
+ }
+ header nav {
+ margin: 30px 0;
+ }
+ .sobre article {
+ width: 100%;
+ }
+ .sobre figcaption img {
+ width: 100%;
+ margin: 30px 0 0 0;
+ }
+
+ footer .linha {
+ flex-direction: row;
+ justify-content: center;
+ }
+}
+/* Define o tamanho dos elementos em telas de 665px. */
+@media(max-width: 665px) {
+ .conteudo {
+ width: 400px;
+ }
+}
+/* Define o tamanho dos elementos em telas de 450px. */
+@media(max-width: 450px) {
+ .conteudo {
+ width: 290px;
+ }
+ header nav {
+ width: 100%;
+ padding: 10px 0 20px;
+ }
+ header nav ul {
+ flex-direction: column;
+ }
+ header nav ul li {
+ margin: 10px 0;
+ }
+
+ * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+}
+/* Itens do formulário */
+fieldset {
+ width: 60%;
+ padding: 10px 0 20px;
+ margin-left: 10px;
+ border: 2px solid rgb(247, 105, 214);
+ border-radius: 10px;
+ padding: 20px;
+}
+.agrupamento {
+ display: flex;
+ flex-direction: column;
+}
+.agrupamento-botao {
+ padding-top: 10px;
+}
+
+.entrada {
+ font-family: inherit;
+ line-height: 1.15;
+ border: 2px solid rgb(250, 154, 228);
+ border-radius: 10px;
+ padding-bottom: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 10px;
+}
+.entrada:focus {
+ outline: none;
+ box-shadow: 0 0 0 0.2rem rgb(173, 216, 230, 0.5);
+}
+.entrada.mensagem {
+ resize: none;
+}
+.rotulo {
+ padding-bottom: 2.5px;
+ padding-top: 20px;
+ font-weight: 600;
+}
