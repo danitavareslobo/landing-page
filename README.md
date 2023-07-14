@@ -1,3 +1,6 @@
+
+<img src="./imagens/danitl-logo.png" width="300" />
+
 ## Repositório para o Projeto Landing Page
 
 Projeto Landing Page:
@@ -16,6 +19,12 @@ Página simples em HTML5 e CSS3, utilizando diferentes técnicas para personaliz
 
 https://github.com/danitavareslobo/landing-page/assets/107322230/055abdbc-f445-46d9-9000-e74a251dd19f
 
+
+<br>
+
+## Projeto Publicado
+
+Vc pode acessar a Landing Page clicando aqui: :point_right: www.landingpage.danitavares.dev
 
 <br>
 
